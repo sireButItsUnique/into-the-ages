@@ -1,4 +1,4 @@
-package com.sireButItsUnique.intotheages;
+package sireButItsUnique.intotheages;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(useMetadata = true, modid = "into-the-ages", name = "Into The Ages", version = "0.1")
 
 public class IntoTheAges {
+    public static final String modid = "into-the-ages";
     private static Logger logger = LogManager.getLogger("into-the-ages");
 
     @EventHandler
