@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "into-the-ages",
+  "name": "Into The Ages",
+  "description": "Base mod for the pack",
+  "version": "0.1",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["sireButItsUnique"],
+  "credits": "N/A",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
