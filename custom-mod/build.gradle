@@ -13,9 +13,10 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
+
 version = '0.1'
-group = 'com.sire.into-the-ages' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'into-the-ages'
+group = 'sireButItsUnique.into-the-ages' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'intotheages'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -85,7 +86,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "into-the-ages",
+            "Specification-Title": "intotheages",
             "Specification-Vendor": "sireButItsUnqiue",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
@@ -114,3 +115,5 @@ publishing {
         }
     }
 }
+
+sourceSets.main.resources { srcDir 'src/main/resources' }
